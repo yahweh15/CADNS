@@ -187,7 +187,7 @@ float az = ((float)z / 1023) * 90 - 45; // map this to -45 to 45 m/s^2
 // not a definate acciden
   else if ((Temperature_reading >= 50 && Temperature_reading < 60)||(VibrationReading >= 576 && VibrationReading < 1023)){
     lcd.setCursor(0,0);
-    lcd.print("Posiible accident");
+    lcd.print("Possible accident");
      delay(1000);
      lcd.clear();
      
